@@ -2,5 +2,8 @@
 
 #[derive(Debug, Clone)]
 pub struct Artist {
-    // TODO: id, name, metadata
+    pub id: u32;
+    pub nombre: String;
+    pub descripcion: String;
+    pub imagen: String;
 }
