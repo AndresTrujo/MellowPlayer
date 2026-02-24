@@ -2,5 +2,6 @@
 
 #[derive(Debug, Clone)]
 pub struct Genre {
-    // TODO: id, name
+    pub id: u64,
+    pub nombre: String,
 }

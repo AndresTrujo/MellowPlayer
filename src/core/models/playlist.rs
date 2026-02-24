@@ -2,5 +2,7 @@
 
 #[derive(Debug, Clone)]
 pub struct Playlist {
-    // TODO: id, name, ordered list of track ids
+    pub id: i32,
+    pub nombre: String,
+    pub imagen: String,
 }

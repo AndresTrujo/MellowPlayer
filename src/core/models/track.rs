@@ -4,5 +4,9 @@
 
 #[derive(Debug, Clone)]
 pub struct Track {
-    // TODO: id, title, duration, album_id, artist_id, metadata
+    pub id: u64,
+    pub titulo: String,
+    pub duracion_segundos: f32,
+    pub numero_pista: i32,
+    pub album_id: i64,
 }
