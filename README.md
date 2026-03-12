@@ -1,4 +1,4 @@
-# Mellomaniac
+# MellowPlayer
 
 Proyecto: reproductor musical de escritorio — esqueleto arquitectónico.
 
