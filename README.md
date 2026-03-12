@@ -10,6 +10,22 @@ Estructura relevante
 - `src/` : código Rust (ver módulos `app`, `core`, `storage`, `audio`, `scanner`, `ui`, `utils`).
 - `data/migrations/001_initial_schema.sql` : esquema inicial de la base de datos (tabla `artist`, `album`, `track`, `audio_file`, etc.).
 
+# Arquitectura
+
+![Arquitectura](images/Architechture.jpeg)
+
+- Storage: Encargado de guardar la base de datos local de la biblioteca del usuario.
+- Core: Central logica encargada de manejar modelos, servicios, casos de uso y logica de dominio.
+- GStreamer: Biblioteca externa encargada de manejar el stream de audio.
+- App: Modulo encargado de ejecutar controladores, estados y eventos.
+- UI: Frontend de la aplicacion, muestra views, widgets y maneja la interaccion del usuario con el software.
+
+# Base de datos
+
+Esquema principal de la base de datos
+
+![DBScheme](images/databaseSchema.jpeg)
+
 Inicializar la base de datos
 
 Al ejecutar el binario, el proceso intentará crear/abrir `mellomaniac.db` en el directorio actual
