@@ -1,4 +1,4 @@
-# Mellomaniac (esqueleto)
+# Mellomaniac
 
 Proyecto: reproductor musical de escritorio — esqueleto arquitectónico.
 
